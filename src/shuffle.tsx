@@ -12,5 +12,4 @@ export function shuffle() {
 //    'CSS',
 //    'TailwindCSS',
 //    'HTML',
-//    'SQLite'
 //])

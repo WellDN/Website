@@ -6,10 +6,10 @@ export default function App () {
     <div className="p-20 fixed">
     <div className="flex justify-center flex-col h-screen">
     <div className="grid gap-24 rounded-sm bg-black/40 p-8 w-74">
-    <h1 className="text-2xl font-light text-cyan-400">
+    <h1 className="text-2xl font-light text-white">
       I Make Websites
       </h1>
-    <span className="text-7xl font-light pb-10">
+    <span className="text-7xl font-light pb-10 text-white">
     Front-End
     </span>
     <div className='flex justify-start gap-4'>

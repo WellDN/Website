@@ -1,4 +1,5 @@
 import { Model } from './model'
+import { Change } from './shuffle'
 
 export default function App () {
   return(
@@ -9,9 +10,7 @@ export default function App () {
     <h1 className="text-2xl font-light text-white">
       I Make Websites
       </h1>
-    <span className="text-7xl font-light pb-10 text-white">
-    Front-End
-    </span>
+    <Change />
     <div className='flex justify-start gap-4'>
       <a target='_blank' href='https://github.com/WellDN' title='Github' className="transition-colors text-white hover:text-cyan-400">
         <svg className="w-10" viewBox='0 0 24 24'>

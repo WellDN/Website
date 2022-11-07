@@ -50,7 +50,7 @@ export function Change() {
         }
     }, [])
     return(
-        <span className="text-7xl font-light pb-10 text-cyan-900">
+        <span className="text-7xl font-light pb-10 text-cyan-300">
         <span className={`inline-block transition ${
           show ? "ease-out opacity-100" : "ease-in translate-y-2 opacity-0"
         }`}

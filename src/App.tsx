@@ -4,10 +4,10 @@ import { Change } from './shuffle'
 export default function App () {
   return(
     <body className="grid">
-    <div className="p-20 fixed">
-    <div className="flex justify-center flex-col h-screen">
-    <div className="grid gap-24 rounded-sm bg-black/40 p-8 w-74">
-    <h1 className="text-2xl font-light text-white">
+    <div className="p-4 sm:p-20 fixed">
+    <div className="flex justify-center flex-col sm:h-screen">
+    <div className="grid gap-7 sm:gap-24 rounded-sm bg-black/40 p-8 w-74">
+    <h1 className="text-1xl sm:text-2xl font-light text-white">
       I Make Websites
       </h1>
     <Change />

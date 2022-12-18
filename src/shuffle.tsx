@@ -14,7 +14,6 @@ import { useEffect, useState } from "react";
     return a;
 }
 
-
 const handler = shuffle ([
     'TypeScript',
     'React',

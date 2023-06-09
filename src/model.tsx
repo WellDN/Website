@@ -22,6 +22,7 @@ type IGeometry = {
 const DEFAULT_LAYER = 0
 const OCCLUSION_LAYER = 1
 
+
  function Figure({ layer = DEFAULT_LAYER }) {
   const group = useRef<THREE.Group>(null!)
   const { nodes, materials }: IGeometry = useGLTF(hnDraco);
